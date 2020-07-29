@@ -1,6 +1,6 @@
 # aws-lambda-libreoffice ![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 
-> 85 MB LibreOffice to fit inside AWS Lambda compressed with Brotli  forked from shelfio/aws-lambda-libreoffice 
+> 85 MB LibreOffice to fit inside firebase functions compressed with Brotli 
 this is the 2.2.0 version fo shelfio/aws-lambda-libreoffice , juste i have update @shelf/aws-lambda-brotli-unpacker to v1.0.0
 
 Inspired by [chrome-aws-lambda](https://github.com/alixaxel/chrome-aws-lambda)
