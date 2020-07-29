@@ -1,6 +1,6 @@
 {
   "name": "@attyou/firebase-libreoffice",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "85 MB LibreOffice to fit insidefirebase compressed with Brotli forked from  shelfio/aws-lambda-libreoffice ",
   "license": "MIT",
   "repository": {
@@ -24,7 +24,7 @@
   "files": [
     "lib"
   ],
-  "main": "lib/index.ts",
+  "main": "src/index.ts",
   "types": "lib/index.d.ts",
   "keywords": [
     "aws lambda",
