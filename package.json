@@ -1,14 +1,13 @@
 {
-  "name": "@shelf/aws-lambda-libreoffice",
-  "version": "2.2.0",
-  "description": "85 MB LibreOffice to fit inside AWS Lambda compressed with Brotli",
+  "name": "@attyou/firebase-libreoffice",
+  "version": "2.2.2",
+  "description": "85 MB LibreOffice to fit insidefirebase compressed with Brotli forked from  shelfio/aws-lambda-libreoffice ",
   "license": "MIT",
-  "repository": "shelfio/aws-lambda-libreoffice",
-  "author": {
-    "name": "Vlad Holubiev",
-    "email": "vlad@shelf.io",
-    "url": "shelf.io"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attyou/firebase-libreoffice.git"
   },
+  "author": "Vlad Holubiev <vlad@shelf.io> (shelf.io)",
   "engines": {
     "node": ">=8.10"
   },
@@ -25,7 +24,7 @@
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
+  "main": "lib/index.ts",
   "types": "lib/index.d.ts",
   "keywords": [
     "aws lambda",
@@ -54,7 +53,11 @@
     "jest": "24.8.0",
     "lint-staged": "8.2.0",
     "prettier": "1.18.2",
-    "typescript": "3.5.1"
+    "typescript": "3.8.3"
+  },
+  "resolutions": {
+    "jest-diff": "25.2.3",
+    "pretty-format": "24.9.0"
   },
   "jest": {
     "testEnvironment": "node"
@@ -76,5 +79,9 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/attyou/firebase-libreoffice/issues"
+  },
+  "homepage": "https://github.com/attyou/firebase-libreoffice#readme"
 }
