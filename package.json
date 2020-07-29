@@ -1,6 +1,6 @@
 {
   "name": "@attyou/firebase-libreoffice",
-  "version": "2.2.9",
+  "version": "3.0.0",
   "description": "85 MB LibreOffice to fit insidefirebase compressed with Brotli forked from  shelfio/aws-lambda-libreoffice ",
   "license": "MIT",
   "repository": {
